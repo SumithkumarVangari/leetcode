@@ -15,7 +15,7 @@ void subsets(int index,vector<int>&nums,vector<int>&temp)
 }
     vector<vector<int>> subsets(vector<int>& nums) {
         vector<int>temp;
-        
+        map<vector<int>,int>mp;
         subsets(0,nums,temp);
         return ans;
     }
